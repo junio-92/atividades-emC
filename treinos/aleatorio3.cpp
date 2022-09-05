@@ -1,8 +1,9 @@
 #include<stdio.h>
+#include<stdlib.h>
 
 
 
-int main()
+int main(void)
 
 {
 	
@@ -15,18 +16,34 @@ int main()
 
 	
 	if(lingua == 'portugues')
+	{
+		
+		printf(" Va para portugal " );
+	}
 	
-	printf("\t Va para portugal \n" );
+
 	
 	if(lingua =='espanhol')
+	{
+			printf("\t Va para a Espanha \n");
+	}
 	
-	printf("\t Va para a Espanha \n");
+
 	
 	if(lingua == 'russo')
 	
-	printf("Va para a Russia");
+	{
+			printf("Va para a Russia");
+	}
 	
-	else('ERRO');
+
+	
+	else
+	{
+		printf("ERRO");
+		
+	}
+	
 	
 	return 0;
 }
