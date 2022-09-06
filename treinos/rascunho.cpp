@@ -7,32 +7,35 @@ int main(void)
 
 {
 	
-	char  lingua;
+	int f1;
 	
-	printf("Escreva o nome da lingua:");
+	printf("Digite um numero:");
 	
-	scanf("%c", &lingua);
+	scanf("%d", &f1);
 	
 
 	
-	if(lingua == 'portugues'){
+	if(f1 == 2){
 		
 		printf(" Va para portugal " );
 	}
 	
 
 	
-	if(lingua =='espanhol'){
+	if(f1==3){
 		printf("\t Va para a Espanha \n");
 	}
 	
 
 	
-	if(lingua == 'russo'){
+	if(f1 == 4){
 	
 			printf("Va para a Russia");
 			
-	}else{
+	
+	}
+	
+	else{
 		printf("ERRO");
 	}
 	
