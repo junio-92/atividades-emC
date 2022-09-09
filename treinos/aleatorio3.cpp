@@ -7,7 +7,7 @@ int main(void)
 
 {
 	
-	char  lingua;
+	char  lingua='l', portugues='p', espanhol='e', russo='r';
 	
 	printf("Escreva o nome da lingua:");
 	
@@ -15,26 +15,26 @@ int main(void)
 	
 
 	
-	if(lingua == 'portugues'){
+	if(lingua == portugues){
 		
 		printf(" Va para portugal " );
 	}
 	
 
 	
-	if(lingua =='espanhol'){
+	else if(lingua ==espanhol){
 		printf("\t Va para a Espanha \n");
 	}
 	
 
 	
-	if(lingua == 'russo'){
+	else if(lingua == russo){
 	
-			printf("Va para a Russia");
+			printf("\t Va para a Russia \n");
 			
-	}else{
+	}else
 		printf("ERRO");
-	}
+	
 	
 		
 		

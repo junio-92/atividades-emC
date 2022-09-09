@@ -3,7 +3,7 @@
 
 
 
-int main(void)
+int main()
 
 {
 	
@@ -22,22 +22,22 @@ int main(void)
 	
 
 	
-	if(f1==3){
+	else if(f1==3){
 		printf("\t Va para a Espanha \n");
 	}
 	
 
 	
-	if(f1 == 4){
+	else if(f1 == 4){
 	
 			printf("Va para a Russia");
 			
 	
 	}
 	
-	else{
+	else
 		printf("ERRO");
-	}
+	
 	
 		
 		
