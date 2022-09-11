@@ -3,7 +3,7 @@
 
 
 
-	int multiplicacao(int a1, int a2 ) {
+	int soma(int a1, int a2 ) {
 	
 	return a1+a2;
 	
@@ -15,7 +15,7 @@ int main(){
 	
 	int resultado;
 	
-	resultado = multiplicacao (300,10)/2;
+	resultado = soma (56,10)/3;
 	
 	printf ("\n Resultado da multiplicacao : %d", resultado);
 	
