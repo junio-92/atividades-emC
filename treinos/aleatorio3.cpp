@@ -33,7 +33,7 @@ int main(void)
 			printf("\t Va para a Russia \n");
 			
 	}else
-		printf("ERRO");
+		printf("lingua nao identificada");
 	
 	
 		
