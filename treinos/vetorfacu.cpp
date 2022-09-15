@@ -5,9 +5,9 @@ int main(){
 	
 	int j;
 	
-	int junio[5]={5,3,4,23,8};
+	int junio[6]={5,3,4,23,8,67};
 	
-	for(j=0;j <= 4; j++)
+	for(j=0;j <= 5; j++)
 	{
 		printf("junio[%d] =%d \n",j, junio[j]);
 	}
