@@ -9,7 +9,7 @@ int main ()
 	
 	c = a + b; 
 	
-		media = (a + b) /2;
+		media = (a + b) /3;
 	printf("A soma e:%d\n", c);
 	printf(" A media e:%d  \n", media);
 	
