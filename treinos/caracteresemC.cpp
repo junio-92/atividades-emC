@@ -16,5 +16,5 @@ int main()
 	
 	scanf("%s", &nomes);
 	
-	printf("Os nomes escritos sao: %s  %s \n", nome, nomes);
+	printf("Os Nomes escritos sao: %s  %s \n", nome, nomes);
 }
