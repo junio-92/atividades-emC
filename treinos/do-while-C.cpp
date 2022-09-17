@@ -13,7 +13,7 @@ int main(void)
   		
   		c = a+b;
   		
-  		printf("Asoma e : %d \n", c);
+  		printf("A soma e : %d \n", c);
   		
   		cont++;
   		
