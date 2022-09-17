@@ -10,11 +10,11 @@ int main()
 	
 	printf("Escreva um nome:");
 	
-	scanf("%c", &nome);
+	scanf("%s", &nome);
 	
 	printf("Escreva mais um nome:");
 	
-	scanf("%c", &nomes);
+	scanf("%s", &nomes);
 	
-	printf("Os nomes escritos sao %c : \n", nome, nomes);
+	printf("Os nomes escritos sao: %s  %s \n", nome, nomes);
 }
