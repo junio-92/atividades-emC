@@ -10,7 +10,7 @@ int main()
 	switch(a1){
 		
 		case 1:
-			printf("ola junio\n");
+			printf("ola Junio\n");
 			break;
 		case 2: 
 			printf("Bianch linda\n");
