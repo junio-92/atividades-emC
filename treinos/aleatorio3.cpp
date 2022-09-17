@@ -9,7 +9,7 @@ int main(void)
 	
 	char  lingua='l', portugues='p', espanhol='e', russo='r';
 	
-	printf("Escreva o nome da lingua:");
+	printf("Escreva o nome da Lingua:");
 	
 	scanf("%c", &lingua);
 	
