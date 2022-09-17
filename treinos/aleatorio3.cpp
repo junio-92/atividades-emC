@@ -17,7 +17,7 @@ int main(void)
 	
 	if(lingua == portugues){
 		
-		printf(" Va para portugal " );
+		printf(" Va para Portugal " );
 	}
 	
 
