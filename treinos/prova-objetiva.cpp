@@ -63,6 +63,10 @@ printf("Maior nota %d", media);
 	
 }
 
+else 
+
+printf("nehuma media");
+
 
 	
 }
