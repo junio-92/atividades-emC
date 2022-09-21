@@ -45,7 +45,7 @@ printf("nota do nono aluno");
 
 scanf("%d", &a9);
 
-printf("nota do decimo aluno");
+printf("Nota do decimo aluno");
 
 scanf("%d", &a10);
 
