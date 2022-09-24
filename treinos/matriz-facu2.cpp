@@ -8,14 +8,26 @@ int main(){
 	
 	printf ("\n Digite um numero \n");
 	
-	for (k =0,  k<3, k++)
-	for (z =0,  z<3, z++)
+	for (k =0;  k<3; k++)
+	for (z =0;  z<3; z++)
+	{
+		
+	printf ("Valor [%d] [%d] = " , k,z); 
+	scanf("%d", &mat[k] [z]);
+	}
+
+	printf("\n \n -------------saida de dados------------ \n \n ");
 	
-	printf ("Valor [%d] [%d] = "); 
-	scanf("%d", &mat[0] [0]);
+	
+	for (k =0;  k<3; k++)
+	for (z =0;  z<3; z++)
+	{
+		printf (" \n\n Valor [%d] [%d] = %d" , k,z, mat[k] [z] ); 
+		
+	}
 	
 	
-	retur(0);
+	return(0);
 	
 	
 	
