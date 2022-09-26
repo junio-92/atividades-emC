@@ -6,7 +6,7 @@ int main(void)
 {
 	
 	
-	int valor=30;
+	int valor=50;
 	
 	int *ptb;
 	
