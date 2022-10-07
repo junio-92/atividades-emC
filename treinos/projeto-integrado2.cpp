@@ -16,10 +16,12 @@ int main()
 	printf("Escreva o seu endereco:\n");
 	fgets(endereco, 50, stdin);
 	
-	printf("Escreva o seu telefone: \n");
+	printf("Escreva o seu Telefone: \n");
 	fgets(telefone,11, stdin );
 	
 	printf("\n\n Nome : %s \n", nome);
 	printf("Endereco: %s \n", endereco);
 	printf("Telefone: %s \n", telefone);
 }
+
+
