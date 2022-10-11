@@ -20,7 +20,7 @@ int main ()
 	break;
 	
 	case 2 :
-		printf("otimo");
+		printf("Otimo");
 		break;
 		
 		default : 
